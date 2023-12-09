@@ -1,0 +1,261 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #d1d8c6;
+}
+
+.headings {
+  padding: 70px 0px;
+}
+
+.heading_welcome_to {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 9.24px;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+  background: linear-gradient(180deg, #fff 35.96%, #d1d8c6 111.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading_india {
+  background: linear-gradient(180deg, #fff 35.96%, #d1d8c6 111.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  color: white;
+  font-size: 9rem;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1900;
+  letter-spacing: 14px;
+  word-wrap: break-word;
+}
+
+.hero_images {
+  display: flex;
+  height: 33vh;
+  padding: 30px 0px 0px 0px;
+  justify-content: center;
+  gap: 20px;
+}
+
+.animated_hero_images:hover {
+  transform: scale(1.07);
+}
+
+.category_section {
+  position: relative; /* Add position: relative; to the .category_section */
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clouds {
+  position: absolute;
+  top: -24vh;
+  opacity: 0.9;
+  z-index: 0; /* Keep the z-index for clouds as -1 */
+  height: 120vh;
+  width: 98vw;
+}
+
+.category_image {
+  height: 20vh;
+  width: 9.5vw;
+  padding: 10px;
+  z-index: 1; /* Add z-index: 1; to the .category_image */
+}
+
+.category_image:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.categories {
+  position: relative; /* Add position: relative; to the .categories */
+  padding: 20px 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  z-index: 1; /* Add z-index: 1; to the .categories */
+}
+
+.event_details {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+}
+.event_title {
+  color: black;
+  font-size: 18px;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 32.2px;
+  letter-spacing: 3.06px;
+  word-wrap: break-word;
+}
+.event_venue {
+  color: black;
+  font-size: 12px;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 21.47px;
+  letter-spacing: 2.04px;
+  word-wrap: break-word;
+}
+.event_date {
+  color: black;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-top: 10px;
+  line-height: 25.05px;
+  letter-spacing: 2.38px;
+  word-wrap: break-word;
+}
+.events_div {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  /* height: 30vh; */
+  width: 530px;
+  gap: 20px;
+}
+
+.event_image {
+  height: 168px;
+  width: 200px;
+  border-radius: 12px;
+}
+
+.event_image:hover {
+  transform: scale(1.02);
+}
+
+.event_date,
+.event_venue {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.events {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px 50px;
+  gap: 30px;
+}
+
+.events_heading {
+  color: white;
+  font-size: 4rem;
+  font-family: Montserrat;
+  margin-top: 20px;
+  font-weight: 1900;
+  line-height: 96.61px;
+  text-align: center;
+  letter-spacing: 9.18px;
+  word-wrap: break-word;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #fff 35.96%, #d1d8c6 111.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.view_all_events {
+  padding: 12px 24px;
+  color: white;
+  background: #412f21;
+  border-radius: 41px;
+  align-self: center;
+  border: none;
+  margin: 20px;
+}
+
+.events_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.away_from_home_image {
+  transform: rotate(20deg);
+  position: relative;
+  top: -80vh;
+  left: 300px;
+}
+.away_from_home {
+  margin-top: 40px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.away_from_home_heading {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-family: Montserrat;
+  margin-top: 20px;
+  font-weight: 800;
+  line-height: 96.61px;
+  text-align: center;
+  letter-spacing: 9.18px;
+  word-wrap: break-word;
+  background: linear-gradient(180deg, #fff 35.96%, #d1d8c6 111.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature {
+  color: black;
+  font-size: 16px;
+  font-family: "poppins";
+  width: 390px;
+  margin-top: 40px;
+  font-weight: bolder;
+  line-height: 33.9px;
+  letter-spacing: 3.52px;
+  word-wrap: break-word;
+}
+.tours_features {
+  margin: 30px 60px 20px 60px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#feature_2,
+#feature_4 {
+  margin-left: 270px;
+}
+
+#away_from_home_clouds {
+  position: absolute;
+  top: -6vh;
+  opacity: 0.9;
+  z-index: -1; /* Keep the z-index for clouds as -1 */
+  height: 120vh;
+  left: -2vw;
+  width: 100vw;
+}
